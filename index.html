@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="1">
+    <link href="./tailwindstyle.css" rel="stylesheet">
+    <title>Instagram stories UI</title>
+    <!--https://linuxhint.com/how-to-setup-tailwind-css-in-vs-code/-->
+</head>
+<body>
+
+<div class="max-w-3xl">
+        <h1 class="text-pink-800 text-5xl pb-10 pt-6 flex justify-center ">INSTAGRAM STORIES UI</h1>
+        <div>
+            <ul class="flex flex-row space-x-3 mx-3">
+                <li class="relative flex flex-col items-center space-y-3"><!--align-center is different from items-center******IMP-->
+                    
+                    <a href="#" class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600 rounded-full p-1 transform hover:rotate-6"><!--background only gradient(tr- towards right),not border-->
+                                              <!--transform must for rotate-->
+                            <img class ="w-40 h-40 rounded-full border-4 border-white" src="./images/img1.jpg">
+                    </a>
+                    <button class="absolute bottom-14 right-1 bg-blue-500 rounded-full h-8 w-8 text-2xl text-white font-semibold border-white border-4 flex items-center justify-center font-mono hover:bg-blue-600">+</button><!--to make good round- h&w, no padding-->
+                   <!--i have to align wrt to only this div. so make parent div relative-->    <!--font change ,justify,items = all made + to be in center-->
+                
+                    <h5 class="">you</h5>
+                </li>
+
+                <li class="relative flex flex-col items-center space-y-3"><!--align-center is different from items-center******IMP-->
+                    
+                    <a href="#" class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600 rounded-full p-1 transform hover:rotate-6"><!--background only gradient(tr- towards right),not border-->
+                                              <!--transform must for rotate-->
+                            <img class ="w-40 h-40 rounded-full border-4 border-white" src="./images/img2.jpg">
+                    </a>
+                    
+                    <h5 class="">sweta_30</h5>
+                </li>
+                <li class="relative flex flex-col items-center space-y-3"><!--align-center is different from items-center******IMP-->
+                    
+                    <a href="#" class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600 rounded-full p-1 transform hover:rotate-6"><!--background only gradient(tr- towards right),not border-->
+                                              <!--transform must for rotate-->
+                            <img class ="w-40 h-40 rounded-full border-4 border-white" src="./images/img3.jpg">
+                    </a>
+                   <h5 class="">dhoni_07</h5>
+                </li>
+
+                <li class="relative flex flex-col items-center space-y-3"><!--align-center is different from items-center******IMP-->
+                    
+                    <a href="#" class="bg-gradient-to-tr from-yellow-400 to-fuchsia-600 rounded-full p-1 transform hover:rotate-6"><!--background only gradient(tr- towards right),not border-->
+                                              <!--transform must for rotate-->
+                            <img class ="w-40 h-40 rounded-full border-4 border-white" src="./images/img4.jpg">
+                    </a>
+                   
+                    <h5 class="">nikhil_21</h5>
+                </li>
+            </ul>
+        </div>
+</div>
+</body>
+</html>
